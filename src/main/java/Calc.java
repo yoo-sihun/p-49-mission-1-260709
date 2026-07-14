@@ -7,8 +7,10 @@ public class Calc {
         System.out.println(value1);
         System.out.println(value2);
         System.out.println(splitStr[1]);
-        if(splitStr[1].equals("+")){
+        if(splitStr[1].equals("+")) {
             result = value1 + value2;
+        }else if(splitStr[1].equals("-")) {
+            result = value1 - value2;
         }
         return result;
     }
